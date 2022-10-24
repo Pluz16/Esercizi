@@ -1,0 +1,75 @@
+body{
+  color: white;
+  background-image: url(https://images.dailyhive.com/20191104093012/lime-scooter-montreal.jpg);
+}
+
+header{
+  padding-top: 16px;
+}
+
+#logo{
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+}
+
+nav{
+  background-color: #00FF00;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  display: inline-block;
+}
+
+/* non ho aggiunto caratteristiche di trasparenza al container in quanto non legava bene con lo sfondo scelto */
+.container{
+  width: 1000px;
+  margin: auto;
+  background-color: black;
+  border-radius: 30px;
+}
+.testo{
+  font-family: Verdana;
+  font-size: 10px;
+
+  opacity: 1.0;
+  padding-left: 60px;
+  color: white;
+}
+
+/* Caratteristiche carica */
+.w3-Yellow{
+  padding-top: 2px;
+  background-color: #FFCE33;
+  border-radius: 15px;
+}
+
+.w3-Green{
+  padding-top: 2px;
+  background-color: #008000;
+  border-radius: 15px;
+}
+
+.w3-Red{
+  padding-top: 2px;
+  background-color: #A52A2A;
+  border-radius: 15px;
+}
+
+#bottoni{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+footer{
+  padding: 20px;
+}
